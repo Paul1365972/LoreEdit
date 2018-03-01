@@ -1,0 +1,15 @@
+name: LoreEdit
+author: Paul1365972
+version: 1.0
+main: de.paul1365972.loreedit.LoreEdit
+
+commands:
+  loreedit:
+    usage: /<command> [read/set/remove/replace/replaceall]
+    description: LoreEdit
+    aliases: le
+    
+permissions:
+  loreedit.edit:
+    description: Gives access to all loreedit commands
+    default: op
